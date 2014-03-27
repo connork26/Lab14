@@ -14,8 +14,7 @@ $(document).ready(function(){
 <script>
 $(document).ready(function(){
   $("p.changed").click(function(){
-	$(this).html("Click again to hide");
-	$(this).attr('class', 'hidden');
+	$(this).html("Changed!!!");
   });
 });
 </script>
@@ -25,24 +24,19 @@ $(document).ready(function(){
 <body>
 
 	<div id="head">
-		<h1>Sonoma State Lacrosse</h1>
-    	<ul>
-        	<li><a href="./index.html">Home</a></li>
-            <li><a href="./roster.html">Roster</a></li>
-            <li><a href="./schedule.html">Schedule</a></li>
-        </ul>
-    </div>
+	   <h1>Sonoma State Lacrosse</h1>
+  	   <ul>
+      	<li><a href="./index.html">Home</a></li>
+          <li><a href="./roster.html">Roster</a></li>
+          <li><a href="./schedule.html">Schedule</a></li>
+      </ul>
+  </div>
     
-    <div id="content">
-    	<h1>Welcome to our page!</h1>
-        <p style="font-style:italic">We play lacrosse</p>
-        <p class="changed">Click to change</p>
-        <p class="hidden">Click to hide</p>
-        
-        <button type="button" onclick="document.getElementById('secret').style.visibility='visable'">
-        Secret?</button>
-    </div>
-            
-            	
+  <div id="content">
+    <h1>Welcome to our page!</h1>
+    <p style="font-style:italic">We play lacrosse</p>
+    <p class="changed">Click to change</p>
+    <p class="hidden">Click to hide</p>
+  </div>             	
 </body>
 </html>
